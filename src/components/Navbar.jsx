@@ -2,18 +2,16 @@ import React from 'react'
 
 const Navbar = () => {
   return (
-    <div className='bg-slate-400 w-[100%] h-14 flex justify-between items-center'>
-      <div className="w-[85%] flex  justify-between pl-28">
-        <div className='text-xl font-semibold'>Navbar</div>
-        <div className='flex gap-12 items-center text-xs font-semibold '>
-          <div>Foods</div>
-          <div>Wishlist</div>
-          <div>Favourites</div>
-          <div>Review</div>
-        </div>
+    <div className='bg-white w-[89%] h-16 flex justify-between items-center mx-auto rounded-b-xl px-10'>
+      <div className='text-xl font-semibold'>Stuffsus</div>
+      <div className='flex gap-12 items-center text-xs font-semibold '>
+        <div>Brenda</div>
+        <div>Shop</div>
+        <div>Blog</div>
       </div>
-      <div className='mx-auto'>
-        <button className='bg-red-200 px-8 py-1 rounded-md'>Login</button>
+      <div className="">
+        <div className="bg-white size-8 rounded-full text-center shadow-md  border-black "><i class="ri-search-line"></i></div>
+
       </div>
     </div>
   )
